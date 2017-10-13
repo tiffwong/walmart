@@ -71,7 +71,7 @@ function showTheater(rows) {
         var seats = rows[row];
         
         for (var i = 0; i < seats.length; i++) {
-            $('#theater').append('<img class="availible" id="' + row + i + '" src="img/seat.png">');
+            $('#theater').append('<img class="availible" id="' + row + i + '" src="images/seat.png">');
         }
         
         $('theater').append('</div>');
@@ -128,7 +128,7 @@ function fillTheater(rows, reservations) {
             $('#' + seat).removeClass('availible');
             $('#' + seat).addClass('reserved');
             $('#' + seat).attr('data-toggle', 'tooltip');
-            $('#' + seat).attr('src', 'img/ticket.png');
+            $('#' + seat).attr('src', 'images/ticket.png');
             $('#' + seat).attr('title', reserve_id);
         }
         
