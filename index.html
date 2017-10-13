@@ -1,47 +1,55 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>China House</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta name="author"   content="Tiffany Wong">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+	<title>Walmart Labs - Programming Challenge</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="navbar" class="navbar" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="fa fa-bars"></span>
-                </button>
+    <div class="container header">
+        <img class="logo" src="img/logo.png">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <h4>Step 1:</h4>
+                Upload the input file.
+                
+                <div class="form-group">
+                    <input class="form-control-file" id="input" type="file">
+                    <small class="form-text text-muted">
+                        The input format must match the example provided in the <a href="#">readme</a> or it will not work.
+                    </small>
+                    
+                </div>
             </div>
-            <div class="navbar-collapse collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">menu</a></li>
-                    <img src="images/logo.png"/>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">info</a></li>
-                </ul>
+            <div class="col-xs-6">
+                <h4>Step 2:</h4>
+                Download the output file.
+                
             </div>
         </div>
-    </nav>
-	<div class="container-fluid" id="home">
-	    <div class="carousel">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+        <div class="row">
+            <div class="col-xs-6">
+                <button class="btn btn-block btn-default" id="submit" type="submit">Submit</button>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-block btn-default disabled" id="download" type="submit">Download</button>
+            </div>
         </div>
-	    
-	</div>
-	
-	<!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </div>
+    <br><br>
+    <div class="container" id="theater">
+        <p class="monospace-font" style="text-align: center">[[ SCREEN ]]</p>
+    </div>
+    <footer>Created by Tiffany Wong</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	<script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
