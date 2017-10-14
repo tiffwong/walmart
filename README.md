@@ -34,6 +34,11 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 > ...
 > ```
 
+## Remaining tasks
+- Attempt to group seats from the same reservation request together
+- Increase seat count by one to match provided output format
+- Handle error when there are more reservation requests than total seats
+
 ## Notes
 - All images are originally from the [Noun Project](https://thenounproject.com/) and have been modified
 - Not formatted for mobile devices and/or tablets
