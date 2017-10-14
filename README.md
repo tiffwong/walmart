@@ -24,7 +24,7 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 3. Optional: Download the output file
 
 > **Output Description:**
-> 
+>
 > Each line contains the reservation identifier and a comma-delimited list of the assigned seats.
 > ```
 > R001 A0,A1
@@ -35,6 +35,8 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 > ```
 
 ## Remaining tasks
+Will attempt if I finish my actual homework assignments before the due date.
+
 - [ ] Attempt to group seats from the same reservation request together
 - [ ] Increase seat count by one to match provided output format
 - [ ] Handle error when there are more reservation requests than total seats
