@@ -36,7 +36,7 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 
 ## Remaining tasks
 Will attempt if I finish my actual homework assignments before the due date.
-
+- [ ] Look into possible issue with newlines in .txt files
 - [ ] Attempt to group seats from the same reservation request together
 - [ ] Increase seat count by one to match provided output format
 - [ ] Handle error when there are more reservation requests than total seats
