@@ -37,4 +37,4 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 ## Notes
 - All images are from the [Noun Project](https://thenounproject.com/)
 - Not formatted for mobile devices and/or tablets
-- Requires window.FileList and window.FileReader to upload input file
+- Requires various Web APIs (FileList and FileReader) to upload input file
