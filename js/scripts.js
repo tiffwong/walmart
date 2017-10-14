@@ -162,7 +162,7 @@ function generateOutput(final_rows) {
     var content = '';
     for (var row in final_rows) {
         var seats = final_rows[row];
-        content += row + ' ' + final_rows[row] + '\n';
+        content += row + ' ' + final_rows[row + 1] + '\n';
     }
     
     $('#download').removeClass('disabled');
