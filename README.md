@@ -7,7 +7,7 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 - It's prettier (maybe not the code but the end result is)
 
 ## Instructions
-1. Go to [tiffwong.github.io/walmart](https://tiffwong.github.io/walmart/)
+1. Go to [tiffwong.github.io/walmart](https://tiffwong.github.io/walmart/) (you can also download the repository and run it locally)
 2. Upload a file that matches the input description provided below
 
 > **Input Description:**
