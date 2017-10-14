@@ -8,12 +8,31 @@ I decided to use JavaScript and jQuery instead (even though Java would be easier
 
 ### Instructions
 1. Go to [tiffwong.github.io/walmart](https://tiffwong.github.io/walmart/)
-2. Upload a file that matches the input description
+2. Upload a file that matches the input description provided below
 
+**Input Description:**
 
-##### Input Description
+Each line represents a reservation request. A reservation request will contain a reservation identifier (R###) and the number of seats requested.
+```
+R001 2
+R002 4
+R003 4
+R004 3
+...
+```
 
-##### Output Description
+3. Optional: Download the output file
+
+**Output Description:**
+
+Each line contains the reservation identifier and a comma-delimited list of the assigned seats.
+```
+R001 A0,A1
+R002 A2,A3,A4,A5
+R003 A6,A7,A8,A9
+R004 A10,A11,A12
+...
+```
 
 ### Notes
 - All images are from the [Noun Project](https://thenounproject.com/)
