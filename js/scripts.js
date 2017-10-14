@@ -157,12 +157,13 @@ function findEmptySeat(rows) {
 
 /**
  * Generates output file and enables download
+ * @todo increase seat count by 1 to match provided output format
  */
 function generateOutput(final_rows) {
     var content = '';
     for (var row in final_rows) {
         var seats = final_rows[row];
-        content += row + ' ' + final_rows[row + 1] + '\n';
+        content += row + ' ' + final_rows[row] + '\n';
     }
     
     $('#download').removeClass('disabled');
